@@ -17,10 +17,10 @@
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="button4" Content="Show a message" HorizontalAlignment="Center" VerticalAlignment="Center" Click="button4_Click"/>
-        <Button x:Name="button1" Content="Another conditional test" HorizontalAlignment="Center"  Grid.Row="1"  VerticalAlignment="Center" Click="button1_Click"/>
+        <Button x:Name="button1" Content="Show a message" HorizontalAlignment="Center" VerticalAlignment="Center" Click="button1_Click"/>
+        <Button x:Name="button3" Content="Another conditional test" HorizontalAlignment="Center"  Grid.Row="1"  VerticalAlignment="Center" Click="button3_Click"/>
         <Button x:Name="button2" Content="If/Else" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Click="button2_Click"/>
-        <Button x:Name="button3" Content="A loop" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Click="button3_Click"/>
+        <Button x:Name="button4" Content="A loop" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Click="button4_Click"/>
         <TextBlock x:Name="myLabel" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Grid.ColumnSpan="2" Style="{StaticResource BodyTextBlockStyle}"/>
 
     </Grid>
