@@ -16,8 +16,8 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="changeText" Content="Change the label if checked" HorizontalAlignment="Center"/>
-        <CheckBox x:Name="enableCheckbox" Content="Enable label changing" Grid.Column="1" HorizontalAlignment="Center"/>
+        <Button x:Name="changeText" Content="Change the label if checked" HorizontalAlignment="Center" Click="changeText_Click"/>
+        <CheckBox x:Name="enableCheckbox" Content="Enable label changing" Grid.Column="1" HorizontalAlignment="Center" />
         <TextBlock x:Name="labelToChange" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
 
     </Grid>

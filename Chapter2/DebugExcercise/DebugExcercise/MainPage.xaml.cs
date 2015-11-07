@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
-namespace PracticeUsing_IfElse
+namespace DebugExcercise
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -27,28 +27,30 @@ namespace PracticeUsing_IfElse
             this.InitializeComponent();
         }
 
-        private void changeText_Click(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
         {
-            if (enableCheckbox.IsChecked == true)
-            {
-                if (labelToChange.Text == "Right")
-                {
-                    labelToChange.Text = "Left";
-                    labelToChange.HorizontalAlignment = HorizontalAlignment.Left;
-                }
-                else
-                {
-                    labelToChange.Text = "Right";
-                    labelToChange.HorizontalAlignment = HorizontalAlignment.Right;
-                }
+            int number = 15;
+            number = number + 10;
+            number = 36 * 15;
+            number = 12 - (42 / 7);
+            number += 10;
+            number *= 3;
+            number = 71 / 3;
 
-            }
-            else
-            {
-                labelToChange.Text = "Text changing is disabled";
-                labelToChange.HorizontalAlignment = HorizontalAlignment.Center;
-            }
+            int count = 0;
+            count ++;
+            count --;
+
+            string result = "hello";
+            result += "again " + result;
+            output.Text = result;
+            result = "the value is: " + count;
+            result = "";
+
+            bool yesNo = false;
+            bool anotherBool = true;
+            yesNo = !anotherBool;
+        
         }
-
     }
 }
